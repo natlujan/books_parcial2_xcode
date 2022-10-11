@@ -18,13 +18,17 @@ class InstrumentosController: UIViewController, UITableViewDelegate, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //1
         books.append(books(title: "The Song Of Achilles", author: "Madeline Miller", genre: "Romance, Fantasy"))
-        //2 - Listo
-        instrumentos.append(Instrumentos(nombre: "Violin", tipo: "Cuerda", dificultad: "Alta", material: "Madera", año: "Siglo XVI", creador: "François Tourte (Forma actual)", popularidad: "Alta", generos: "Clasica", grupo: "Mago de Oz", scena: "violin"))
-        //3 - Listo
-        instrumentos.append(Instrumentos(nombre: "Trompeta", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Edad Media", creador: "Egipcios", popularidad: "Media", generos: "Mariachi", grupo: "Los Camperos", scena: "trompeta"))
+        //2
+        books.append(books(title: "A Little Life", author: "Hanya Yanagihara", genre: "Domestic Fiction"))
+        
+        //3
+        books.append(books(title: "Aristotle and Dante Discover the Secrets of the Universe", author: "Benjamin Alire Saenz", genre: "YA Fiction"))
+        
         //4 - Listo
-        instrumentos.append(Instrumentos(nombre: "Flauta", tipo: "Aire", dificultad: "Baja", material: "Madera", año: "Edad Media", creador: "Desconocido", popularidad: "Baja", generos: "Barroca", grupo: "Gentle Giant", scena: "flauta"))
+        books.append(books(title: "A Thousand Boy Kisses", author: "Tillie Cole", genre: "Romance"))
+        
         //5 - Listo
         instrumentos.append(Instrumentos(nombre: "Flauta Travesera", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Siglo XIX", creador: "Theobald Böhm", popularidad: "Media", generos: "Clasica", grupo: "Orquestas", scena: "flautatravesera"))
         //6 - Listo
