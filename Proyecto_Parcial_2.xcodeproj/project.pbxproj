@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D0E88A728EC7DF700CD368C /* InstrumentosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E88A628EC7DF700CD368C /* InstrumentosController.swift */; };
+		3D0E88A728EC7DF700CD368C /* BooksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E88A628EC7DF700CD368C /* BooksController.swift */; };
 		3D0E88AB28EC8A0200CD368C /* DetallesInstrumentosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E88AA28EC8A0200CD368C /* DetallesInstrumentosController.swift */; };
 		3D0E88AD28EC8FE100CD368C /* Authors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E88AC28EC8FE100CD368C /* Authors.swift */; };
 		3D0E88AF28EC90B500CD368C /* CeldaMusicoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E88AE28EC90B500CD368C /* CeldaMusicoController.swift */; };
@@ -45,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D0E88A628EC7DF700CD368C /* InstrumentosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentosController.swift; sourceTree = "<group>"; };
+		3D0E88A628EC7DF700CD368C /* BooksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksController.swift; sourceTree = "<group>"; };
 		3D0E88AA28EC8A0200CD368C /* DetallesInstrumentosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesInstrumentosController.swift; sourceTree = "<group>"; };
 		3D0E88AC28EC8FE100CD368C /* Authors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authors.swift; sourceTree = "<group>"; };
 		3D0E88AE28EC90B500CD368C /* CeldaMusicoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMusicoController.swift; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 			children = (
 				3D678A7428EB3B75004C8802 /* CeldaInstrumentosController.swift */,
 				3D0E88AE28EC90B500CD368C /* CeldaMusicoController.swift */,
-				3D0E88A628EC7DF700CD368C /* InstrumentosController.swift */,
+				3D0E88A628EC7DF700CD368C /* BooksController.swift */,
 				3D0E88AA28EC8A0200CD368C /* DetallesInstrumentosController.swift */,
 			);
 			name = Controller;
@@ -343,7 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D678A7128EB3906004C8802 /* Books.swift in Sources */,
-				3D0E88A728EC7DF700CD368C /* InstrumentosController.swift in Sources */,
+				3D0E88A728EC7DF700CD368C /* BooksController.swift in Sources */,
 				3D678A7528EB3B75004C8802 /* CeldaInstrumentosController.swift in Sources */,
 				3D0E88AD28EC8FE100CD368C /* Authors.swift in Sources */,
 				3D678A2B28EB28EC004C8802 /* AppDelegate.swift in Sources */,

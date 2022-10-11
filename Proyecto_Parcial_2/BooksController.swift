@@ -13,14 +13,12 @@ class InstrumentosController: UIViewController, UITableViewDelegate, UITableView
     
     @IBOutlet weak var lblTvInstrumentos: UITableView!
     
-    var instrumentos : [Instrumentos] = []
+    var books : [books] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the vi
         
-        //1 - Listo
-        instrumentos.append(Instrumentos(nombre: "Piano", tipo: "Percusion", dificultad: "Alta", material: "Metal", año: "1700", creador: "Bartolomeo Cristofori", popularidad: "Alta", generos: "Clasica", grupo: "Keane", scena: "piano"))
+        books.append(books(title: "The Song Of Achilles", author: "Madeline Miller", genre: "Romance, Fantasy"))
         //2 - Listo
         instrumentos.append(Instrumentos(nombre: "Violin", tipo: "Cuerda", dificultad: "Alta", material: "Madera", año: "Siglo XVI", creador: "François Tourte (Forma actual)", popularidad: "Alta", generos: "Clasica", grupo: "Mago de Oz", scena: "violin"))
         //3 - Listo
