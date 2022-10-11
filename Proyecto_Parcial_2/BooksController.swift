@@ -26,17 +26,21 @@ class InstrumentosController: UIViewController, UITableViewDelegate, UITableView
         //3
         books.append(books(title: "Aristotle and Dante Discover the Secrets of the Universe", author: "Benjamin Alire Saenz", genre: "YA Fiction"))
         
-        //4 - Listo
+        //4
         books.append(books(title: "A Thousand Boy Kisses", author: "Tillie Cole", genre: "Romance"))
         
-        //5 - Listo
-        instrumentos.append(Instrumentos(nombre: "Flauta Travesera", tipo: "Aire", dificultad: "Alta", material: "Metal", año: "Siglo XIX", creador: "Theobald Böhm", popularidad: "Media", generos: "Clasica", grupo: "Orquestas", scena: "flautatravesera"))
-        //6 - Listo
-        instrumentos.append(Instrumentos(nombre: "Organo", tipo: "Aire", dificultad: "Alta", material: "Madera / Metal", año: "Siglo VII", creador: "Ctesibio", popularidad: "Baja", generos: "Ceremonial", grupo: "Desconocidos", scena: "organo"))
-        //7 - Listo
-        instrumentos.append(Instrumentos(nombre: "Bateria", tipo: "Percusion", dificultad: "Alta", material: "Caja", año: "Siglo XIX", creador: "Estados Unidos", popularidad: "Alta", generos: "Romantica", grupo: "Queen", scena: "bateria"))
-        //8 - Listo
-        instrumentos.append(Instrumentos(nombre: "Xilófono", tipo: "Cuerda", dificultad: "Alta", material: "Madera", año: "500 d.C.", creador: "Griegos", popularidad: "Baja", generos: "Varios", grupo: "Ensamble", scena: "xilofono"))
+        //5
+        books.append(books(title: "It Ends With Us", author: "Colleen Hoover", genre: "Romance"))
+        
+        //6
+        books.append(books(title: "The Fine Print", author: "Lauren Asher", genre: "Fiction, Contemporary Romance"))
+        
+        //7
+        books.append(books(title: "Girl In Pieces", author: "Kathleen Glasgow", genre: "YA Fiction"))
+        
+        //8
+        books.append(books(title: "A Good Girl's Guide To Murder", author: "Holly Jackson", genre: "Mystery"))
+        
         //9 - Listo
         instrumentos.append(Instrumentos(nombre: "Guitarra Electrica", tipo: "Electronico", dificultad: "Media", material: "Metal", año: "1950", creador: "Leo Fender", popularidad: "Alta", generos: "Jazz", grupo: "Camp Cope", scena: "guitarraelectrica"))
         //10 - Listo

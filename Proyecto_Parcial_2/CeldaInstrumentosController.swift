@@ -10,7 +10,7 @@ import UIKit
 
 class CeldaInstrumentosController: UITableViewCell {
     
-    @IBOutlet weak var lblNombre: UILabel!
+    @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var lblTipo: UILabel!
     @IBOutlet weak var lblDificultad: UILabel!
     @IBOutlet weak var lblImagen: UIImageView!
